@@ -1,0 +1,13 @@
+table {
+    border: 3px dashed orangered;
+}
+
+tr,
+td {
+    border: 5px solid pink;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}

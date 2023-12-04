@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table border=5> <!--CSS에 디자인 관련은 별도 작성할 것.-->
+        <caption>표 셀 합쳐보기</caption>
+        <thead>
+          <tr>
+            <th>no.</th>
+            <th>1열</th>
+            <th>2열</th>
+            <th>3열</th>
+            <th>4열</th>
+          </tr>  
+        </thead>
+        <tbody>
+          <tr>
+            <th>1행</th>
+            <td rowspan="2">11<br>21</td>
+            <td>12</td>
+            <td colspan="2">13 14</td>
+          </tr>
+          <tr>
+            <th>2행</th>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <th>3행</th>
+            <td colspan="3">31 32 33</td>
+            <td rowspan="2">34<br>44</td>
+          </tr>
+          <tr>
+            <th>4행</th>
+            <td>41</td>
+            <td>42</td>
+            <td>43</td>
+          </tr>   
+        </tbody>
+        
+      </table>
+
+
+</body>
+</html>

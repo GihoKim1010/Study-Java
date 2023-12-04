@@ -1,0 +1,19 @@
+/* * { color: pink; background-color: gray; } */
+
+h1 {
+    background: red;
+    width: 100px;
+
+    /* transition-property: width, background-color; */
+
+    transition: width 1s ease, background-color 5s ease; /* ease 제거 */
+
+
+}
+
+h1:hover {  /*마우스 커서를 가져다 댔을때*/
+
+    background-color: blue;
+
+    width: 400px;
+}

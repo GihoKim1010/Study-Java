@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AnimalHompage</title>
+    <link rel="stylesheet" href="a14.css">
+</head>
+
+<body>
+    <!-- 홈페이지 전체 레이아웃 -->
+    <div id="whole_layout">
+
+        <!-- 상단 영역 (홈페이지 로고, 광고배너, 바로 아래 선택메뉴) -->
+        <div id="top">
+            <div id="top_logo">
+                <img id="cat_logo" src="cat.jpg">
+                <p id="name">동물 이미지 갤러리</p>
+            </div>
+            <img id="top_banner" src="banner_635x120.jpg">
+        </div>
+
+        <!-- 상단 바로아래 메뉴영역 -->
+        <div id="top_menu">
+            <div id="menu_inside">
+                <a href="cat.jpg">고양이</a>
+                <a href="dog.png">강아지</a>
+                <a href="rabbit.jpg">토끼</a>
+            </div>
+        </div>
+
+        <div id="mid">
+
+            <!-- 중단 좌측 영역 (로그인창, 게시판, 자랑게시판) -->
+            <div id="mid_left">
+                <div id="log_in">
+                    <form>
+                        <input id="login_id" type="text" placeholder="아이디를 입력하세요" minlength="4" maxlength="10">
+                        <input id="login_pw" type="password" placeholder="비밀번호를 입력하세요" minlength="4" maxlength="10">
+                        <input id="login_bt" type="submit" value="로그인">
+                        <input id="new" type="button" value="회원가입">
+                    </form>
+                </div>
+                <div id="board">
+                    <p id="board_name">게시판</p>
+                    <a href="#">자유게시판</a><br>
+                    <a href="#">공지게시판</a><br>
+                    <a href="#">질문과답변</a>
+                </div>
+                <div id="board2">
+                    <p id="board2_name">자랑하기</p>
+                    <a href="#">강아지자랑</a><br>
+                    <a href="#">고양이자랑</a><br>
+                    <a href="#">토끼자랑</a>
+                </div>
+            </div>
+
+            <!-- 중단 가운데 영역 (사진 반복된부분) -->
+            <div id="mid_mid">
+                <img class="mid_img" src="dog.png">
+                <img class="mid_img" src="dog.png">
+                <img class="mid_img" src="dog.png">
+                <img class="mid_img" src="dog.png">
+                <img class="mid_img" src="dog.png">
+                <img class="mid_img" src="dog.png">
+                <img class="mid_img" src="dog.png">
+                <img class="mid_img" src="dog.png">
+                <img class="mid_img" src="dog.png">
+                <img class="mid_img" src="dog.png">
+                <img class="mid_img" src="dog.png">
+                <img class="mid_img" src="dog.png">
+                <img class="mid_img" src="dog.png">
+                <img class="mid_img" src="dog.png">
+                <img class="mid_img" src="dog.png">
+                <img class="mid_img" src="dog.png">
+                <img class="mid_img" src="dog.png">
+                <img class="mid_img" src="dog.png">
+                <img class="mid_img" src="dog.png">
+                <img class="mid_img" src="dog.png">
+            </div>
+
+            <!-- 중단 우측 영역 (배너 5개) gif 파일도 가능함. -->
+            <div id="mid_right">
+                <img class="mid_banner" src="레플나라_470x150.gif">
+                <img class="mid_banner" src="레플나라_470x150.gif">
+                <img class="mid_banner" src="레플나라_470x150.gif">
+                <img class="mid_banner" src="레플나라_470x150.gif">
+                <img class="mid_banner" src="레플나라_470x150.gif">
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- 하단 영역 (fixed된 홈페이지 및 회사 정보 등 적는란) -->
+    <div id="bottom">
+        <p>연습용으로 만든 홈페이지 양식 입니다.</p>
+        <p>사진은 아무 사진이나 붙여보았습니다.</p>
+    </div>
+
+</body>
+
+</html>

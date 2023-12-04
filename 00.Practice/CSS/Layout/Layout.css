@@ -1,0 +1,40 @@
+#top {
+    display: flex;
+    /*flex : 자식들이 가로로 배열되며, 자기 크기 만큼만 공간을 차지함.*/
+    height: 200px;
+}
+
+#mid {
+    display: flex;
+    height: 150px;
+}
+
+#bot {
+    display: flex;
+    height: 300px;
+}
+
+#a {
+    background-color: red;
+    width: 400px;
+}
+
+#b {
+    background-color: orange;
+    width: 100px;
+}
+
+#c {
+    background-color: yellow;
+    width: 500px;
+}
+
+#d {
+    background-color: green;
+    width: 200px;
+}
+
+#e {
+    background-color: blue;
+    width: 300px;
+}
