@@ -6,6 +6,7 @@ public class Main {
 		
 		Rps rps=new Rps();
 		rps.run();
+		
 	}
 }
 
