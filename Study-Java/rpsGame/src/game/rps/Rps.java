@@ -16,7 +16,6 @@ public class Rps {
 
 	// if(userRpc.equals("가위"))는 문자열만 같으면 같음. if(userRpc == "가위")는 저장된 주소까지 같아야 같음.
 
-	
 	// 가위바위보 로직
 	int playRps() {
 		System.out.println("가위, 바위, 보 중에서 하나를 입력하세요.");
